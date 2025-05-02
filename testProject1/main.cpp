@@ -17,6 +17,8 @@ int main() {
 	
 	d = d + c;
 	cout << "总和第二次改变：" << d << std::endl;
+	d = pow(d, 2);
+	cout << "总和第三次修改：" << d << std::endl;
 
 	Sleep(2000);
 
