@@ -11,6 +11,13 @@ int main() {
 
 	c = c * 2;
 	cout << "总和改变：" << c << std::endl;
+	
+
+	int d = 2;
+	
+	d = d + c;
+	cout << "总和第二次改变：" << d << std::endl;
+
 	Sleep(2000);
 
 
