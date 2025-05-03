@@ -23,7 +23,9 @@ int main() {
 	int mc = d - 4;
 	cout << "总和第四次修改：" << mc << std::endl;
 
-	
+	int pp = mc + 5;
+	int p_p = pp * 2;
+	cout << "求乘的修改：" << p_p << std::endl;
 
 	Sleep(2000);
 
