@@ -26,6 +26,8 @@ int main() {
 	int mt = 12 + 5;
 	cout << "输出：" << mt << std::endl;
 
+	int mc = d - 4;
+	cout << "总和第四次修改：" << mc << std::endl;
 
 	Sleep(2000);
 
