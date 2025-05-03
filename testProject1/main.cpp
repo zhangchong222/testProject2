@@ -20,12 +20,17 @@ int main() {
 	d = pow(d, 2);
 	cout << "总和第三次修改：" << d << std::endl;
 
-	int mc = d - 4;
+	int mc = d - 8;
 	cout << "总和第四次修改：" << mc << std::endl;
 
 	int pp = mc + 5;
 	int p_p = pp * 2;
 	cout << "求乘的修改：" << p_p << std::endl;
+
+	int pp_t = p_p - 6;
+	cout << "求差的修改：" << pp_t << std::endl;
+	int t_pp = pp_t + 10;
+	cout << "求差和的修改：" << t_pp << std::endl;
 
 	Sleep(2000);
 
