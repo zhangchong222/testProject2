@@ -20,8 +20,8 @@ int main() {
 	d = pow(d, 2);
 	cout << "总和第三次修改：" << d << std::endl;
 
-	int cc = d - 4;
-	cout << "总和第四次修改：" << cc << std::endl;
+	int mc = d - 4;
+	cout << "总和第四次修改：" << mc << std::endl;
 
 	Sleep(2000);
 
