@@ -32,6 +32,9 @@ int main() {
 	int t_pp = pp_t + 10;
 	cout << "求差和的修改：" << t_pp << std::endl;
 
+	int pmn = t_pp - p_p;
+	cout << "相差：" << pmn << std::endl;
+
 	Sleep(2000);
 
 
